@@ -1,0 +1,31 @@
+{
+  "auth": {
+    "user_pool_id": "ap-northeast-1_ML2btIQZO",
+    "aws_region": "ap-northeast-1",
+    "user_pool_client_id": "2ubl245aq97lv6ro9sdojele8j",
+    "identity_pool_id": "ap-northeast-1:5493b9a8-fd19-4853-a536-62de01f3362f",
+    "mfa_methods": [],
+    "standard_required_attributes": [
+      "email"
+    ],
+    "username_attributes": [
+      "email"
+    ],
+    "user_verification_types": [
+      "email"
+    ],
+    "mfa_configuration": "NONE",
+    "password_policy": {
+      "min_length": 8,
+      "require_numbers": true,
+      "require_lowercase": true,
+      "require_uppercase": true,
+      "require_symbols": true
+    },
+    "unauthenticated_identities_enabled": true
+  },
+  "version": "1",
+  "custom": {
+    "helloWorldFunctionName": "amplify-gen2app-node-sand-helloworldlambda89B27E55-BB646z48HAlM"
+  }
+}
