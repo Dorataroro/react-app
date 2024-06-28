@@ -33,7 +33,7 @@ function App() {
 
   return (
     <Authenticator>
-      {({ signOut, user }) => (
+      {() => (
         <>
           <div>
             <a href="https://vitejs.dev" target="_blank">
